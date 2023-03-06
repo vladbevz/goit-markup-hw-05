@@ -235,6 +235,7 @@ img {
   cursor: pointer;
   fill: currentColor;
   margin: 24px 24px auto auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover {
   background-color: var(--pressed-state);
